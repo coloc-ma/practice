@@ -291,6 +291,118 @@ img{
     margin-bottom:40px;
 }
 
+
+
+/*   pagetitle  */
+.page-title-wrapper{
+    height:453px;
+    background-image:url(../img/contact-page-bgi@2x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.page-title{
+    font-size: 6rem;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    padding-top: 186px;
+    color:#fff;
+}
+.page-title-bottom{
+    font-size: 9rem;
+    color:#fff;
+    opacity: .1;
+    margin:20px 0 0 40px;
+}
+/*
+/*  form_sp   */
+.form-wrapper{
+    padding:100px 0 80px;
+}
+.form-list{
+    max-width: 700px;
+    margin:0 auto 80px;
+    padding:0 50px;
+}
+.form-item{
+    margin-bottom: 25px;
+    }
+.form-item:last-of-type{
+    margin-bottom:0;
+}    
+.form-label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+input,textarea{
+    resize: none;
+    appearance: none;
+    -webkit-appearance: none;
+    outline:none;
+    border:1px solid #141414;
+    width:100%;
+    color:#171717;
+}
+.input-text{
+    padding:0 8px;
+    line-height: 30px;
+}
+textarea{
+    height:170px;
+    padding:0 8px;
+    line-height: 30px;
+    box-sizing: border-box;
+}
+
+/*checkbox*/
+.checkbox-list{
+    display: flex;
+}
+.checkbox-item{
+    margin-right: 20px;
+}
+.checkbox label,
+.checkbox{
+    cursor: pointer;
+}
+.checkbox{
+    border:solid 1px #282f35;
+    height:10px;
+    width:10px;
+    margin-right:10px;
+}
+.checkbox:checked{
+    background-color: #333;
+}
+
+
+.submit-btn{
+    display: block;
+    width:235px;
+    line-height:60px;
+    margin:0 auto 70px;
+    background-color: #f7d43f;
+    box-shadow: 0 0 6px #1b1310;
+    border-radius:30px;
+    text-align: center;
+    color:#171717;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .3s;
+    border:none;
+}
+
+.submit-btn:hover{
+    opacity:.7;
+    transition: .3s;
+    cursor: pointer;
+}
+
+
+
+
 /*--------------------------*/
 
 /* footer
@@ -483,6 +595,12 @@ button{
     line-height: 250px;
 }
 
-
+/*form*/
+.checkbox-list{
+    display: block;
+}
+.checkbox-item{
+    margin-right: 0;
+}
 
 }

@@ -29,7 +29,7 @@ $('.slider').slick({
 
 
 //ハンバーガーメニュー
-$('.burger-btn').on('click',function(){git push origin head
+$('.burger-btn').on('click',function(){
     $('.header-nav').fadeToggle(300);
     $(this).toggleClass('cross');
     $('body').toggleClass('noscroll');
